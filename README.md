@@ -6,7 +6,6 @@ Con el proposito de documentar como habilitar para un proyecto.
 
 Ver el enlace de documentación en:  https://developer.android.com/guide/navigation/navigation-swipe-view-2
 
-<<<<<<< HEAD
 Esta es la estructura del archivo:
 
 ![Estructura del proyecto](./doc/structure_design.png "img")
@@ -14,8 +13,6 @@ Esta es la estructura del archivo:
 Que hace el Viewpager2 ?
 
 Viewpager2 permite por medio del movimiento del swipe cambiar de fragment, como cambiar de pantalla de izquierda a derecha, y con Tabs, permite identificar con un titulo el nombre del tab:
-
->>>>>>> origin/master
 
 
 Quiero hacer estos cambios ahora

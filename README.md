@@ -14,5 +14,4 @@ Que hace el Viewpager2 ?
 
 Viewpager2 permite por medio del movimiento del swipe cambiar de fragment, como cambiar de pantalla de izquierda a derecha, y con Tabs, permite identificar con un titulo el nombre del tab:
 
-
 Quiero hacer estos cambios ahora

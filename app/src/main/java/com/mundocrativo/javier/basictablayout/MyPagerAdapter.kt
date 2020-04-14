@@ -21,6 +21,4 @@ class MyPagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
         }
         return fragment
     }
-
-
 }

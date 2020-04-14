@@ -22,8 +22,6 @@ Es necesario habilitar los componentes del gradel del modulo así:
     
 1 - El MainActivity.kt y su layout no tienen ningún componente raro, y su proposito es poder simplemente lanzar el fragmento principal MainFragment.kt dentro de un container.
 2 - Hay que crear el Adapter, en este caso llamado MyPagerAdapter.kt el cual hace override de 2 funciones, __getitemCount()__ y __createFragment()__. 
-3 - Se crean los gragmentos haciendo su Clase y su layout. Es importante tener en cuenta que los fragmentos se deberán lanzar de acuerdo a la función createFragment() como se muestra:
-
 
 Archivo: MyPagerAdapter.kt
 
@@ -37,11 +35,52 @@ Archivo: MyPagerAdapter.kt
         return fragment
     }
 
-Así mismo se deberám contar cuantos fragmentos se van a tener con el getItemCount() en el mismo archivo:
+Así mismo se deberán contar cuantos fragmentos se van a tener con el getItemCount() en el mismo archivo:
 
     override fun getItemCount(): Int {
         return 3
     }
     
+3 - Se crean los gragmentos haciendo su Clase y su layout.
 
+4 - El MainFragment.kt debe hacerle override a la función onViewCreated(), la cual instancia el __adapter__ y también instancia el __Tab__ y lo carga como se muestra:
+
+    //--- esta función no está por defecto y es la que implemeta toda la funcionalidad del paged adapter
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        myPagerAdapter = MyPagerAdapter(this)
+        viewPager = pager
+        viewPager.adapter = myPagerAdapter
+
+        TabLayoutMediator(tab_layout,viewPager){ tab, position ->
+            tab.text = "TAB ${position + 1}"
+        }.attach()
+    }
+    
+    
+5 - En el layout del __main_fragment.xml__  se implementan el Tab layout y el Viewpager2 como se observa en el archivo a continuación.
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:context=".ui.main.MainFragment">
+            
+                <com.google.android.material.tabs.TabLayout
+                    android:id="@+id/tab_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+            
+            </LinearLayout>
+            
 

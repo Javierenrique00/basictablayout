@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Gravit.io -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   style="isolation:isolate"
+   viewBox="0 0 1000 1500"
+   width="1000pt"
+   height="1500pt"
+   version="1.1"
+   id="svg1587"
+   sodipodi:docname="structure_design_plain.svg"
+   inkscape:export-filename="D:\temp\bitmap.png"
+   inkscape:export-xdpi="150"
+   inkscape:export-ydpi="150"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata1591">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     id="namedview1589"
+     showgrid="false"
+     inkscape:zoom="0.4525"
+     inkscape:cx="666.66667"
+     inkscape:cy="1000"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1587" />
+  <defs
+     id="defs1207">
+    <clipPath
+       id="_clipPath_XzZDXjzN3XQvhot8bIO5blBAIJPJ7cA8">
+      <rect
+         width="1000"
+         height="1500"
+         id="rect1204" />
+    </clipPath>
+  </defs>
+  <rect
+     style="opacity:1;fill:#ffffff;fill-opacity:0.96078431;stroke:none;stroke-width:37.5;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+     id="rect1593"
+     width="997.79004"
+     height="1496.6851"
+     x="0"
+     y="1.7053026e-13" />
+  <g
+     clip-path="url(#_clipPath_XzZDXjzN3XQvhot8bIO5blBAIJPJ7cA8)"
+     id="g1585">
+    <text
+       transform="matrix(1,0,0,1,15,29.759)"
+       style="font-family:'Open Sans';font-weight:400;font-size:20px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1209">Estructura del proyecto</text>
+    <g
+       id="g1213">
+      <path
+         d=" M 62.927 67 C 62.847 67.007 62.762 67.014 62.683 67.027 L 23.993 67.027 L 23.993 144.949 L 84.975 144.949 L 84.975 89.333 C 85.008 89.152 85.008 88.966 84.975 88.784 L 84.975 88.347 L 84.652 88.017 C 84.558 87.903 84.454 87.799 84.34 87.705 C 84.333 87.705 84.333 87.698 84.326 87.698 L 64.297 67.662 C 64.205 67.543 64.098 67.436 63.979 67.344 L 63.657 67.027 L 63.218 67.027 C 63.12 67.014 63.027 67 62.927 67 Z  M 27.381 70.415 L 61.26 70.415 L 61.26 90.743 L 81.587 90.743 L 81.587 141.561 L 27.381 141.561 L 27.381 70.415 Z  M 64.648 72.81 L 79.192 87.355 L 64.648 87.355 L 64.648 72.81 Z "
+         fill="rgb(0,0,0)"
+         id="path1211" />
+    </g>
+    <text
+       transform="matrix(1,0,0,1,16,152.275)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1215">MainActivity.kt</text>
+    <text
+       transform="matrix(1,0,0,1,104,70.736)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1217">class MainActivity : AppCompatActivity() {   </text>
+    <text
+       transform="matrix(1,0,0,1,110.234,92.525)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1219">override fun onCreate(savedInstanceState: Bundle?) {        </text>
+    <text
+       transform="matrix(1,0,0,1,120.625,103.42)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1221">super.onCreate(savedInstanceState)        </text>
+    <text
+       transform="matrix(1,0,0,1,120.625,114.314)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1223">setContentView(</text>
+    <text
+       transform="matrix(1,0,0,1,181.453,114.314)"
+       style="font-family:'Open Sans';font-weight:700;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1225">R.layout.main_activity</text>
+    <text
+       transform="matrix(1,0,0,1,270.355,114.314)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1227">)        </text>
+    <text
+       transform="matrix(1,0,0,1,120.625,125.209)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1229">if (savedInstanceState == null) {            </text>
+    <text
+       transform="matrix(1,0,0,1,128.938,136.104)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1231">supportFragmentManager.beginTransaction() </text>
+    <text
+       transform="matrix(1,0,0,1,106.078,146.998)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1233">               .replace(</text>
+    <text
+       transform="matrix(1,0,0,1,169.172,146.998)"
+       style="font-family:'Open Sans';font-weight:700;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1235">R.id.container</text>
+    <text
+       transform="matrix(1,0,0,1,225.207,146.998)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1237">, MainFragment.newInstance()) </text>
+    <text
+       transform="matrix(1,0,0,1,106.078,157.893)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1239">               .commitNow()
+ </text>
+    <text
+       transform="matrix(1,0,0,1,106.078,168.787)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1241">       } </text>
+    <text
+       transform="matrix(1,0,0,1,106.078,179.682)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1243">   }</text>
+    <text
+       transform="matrix(1,0,0,1,104,201.471)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1245">}</text>
+    <g
+       id="g1249">
+      <path
+         d=" M 458.43 13.051 C 458.351 13.058 458.266 13.064 458.186 13.078 L 419.496 13.078 L 419.496 91 L 480.479 91 L 480.479 35.384 C 480.512 35.202 480.512 35.017 480.479 34.835 L 480.479 34.398 L 480.155 34.068 C 480.062 33.954 479.957 33.85 479.844 33.756 C 479.837 33.756 479.837 33.749 479.83 33.749 L 459.801 13.713 C 459.708 13.594 459.601 13.487 459.482 13.395 L 459.16 13.078 L 458.722 13.078 C 458.623 13.064 458.53 13.051 458.43 13.051 Z  M 422.884 16.466 L 456.763 16.466 L 456.763 36.793 L 477.091 36.793 L 477.091 87.612 L 422.884 87.612 L 422.884 16.466 Z  M 460.151 18.861 L 474.696 33.405 L 460.151 33.405 L 460.151 18.861 Z "
+         fill="rgb(0,0,0)"
+         id="path1247" />
+    </g>
+    <text
+       transform="matrix(1,0,0,1,399,109.326)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1251">main_activity.xml</text>
+    <text
+       transform="matrix(1,0,0,1,361,127.551)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1253">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</text>
+    <text
+       transform="matrix(1,0,0,1,361,138.445)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1255">&lt;FrameLayout    </text>
+    <text
+       transform="matrix(1,0,0,1,369.313,160.234)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1257">xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;
+    </text>
+    <text
+       transform="matrix(1,0,0,1,369.313,171.129)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1259">xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+    </text>
+    <text
+       transform="matrix(1,0,0,1,369.313,182.023)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1261">android:id=&quot;</text>
+    <text
+       transform="matrix(1,0,0,1,415.434,182.023)"
+       style="font-family:'Open Sans';font-weight:700;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1263">@+id/container</text>
+    <text
+       transform="matrix(1,0,0,1,476.672,182.023)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1265">&quot;
+    </text>
+    <text
+       transform="matrix(1,0,0,1,369.313,192.918)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1267">android:layout_width=&quot;match_parent&quot;
+    </text>
+    <text
+       transform="matrix(1,0,0,1,369.313,203.813)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1269">android:layout_height=&quot;match_parent&quot;
+    </text>
+    <text
+       transform="matrix(1,0,0,1,369.313,214.707)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1271">tools:context=&quot;.MainActivity&quot;/&gt;</text>
+    <text
+       transform="matrix(1,0,0,1,506,466.051)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1273">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</text>
+    <text
+       transform="matrix(1,0,0,1,506,476.945)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1275">&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;    </text>
+    <text
+       transform="matrix(1,0,0,1,514.313,498.734)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1277">xmlns:app=&quot;http://schemas.android.com/apk/res-auto&quot;
+    </text>
+    <text
+       transform="matrix(1,0,0,1,514.313,509.629)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1279">xmlns:tools=&quot;http://schemas.android.com/tools&quot;
+    </text>
+    <text
+       transform="matrix(1,0,0,1,514.313,520.523)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1281">android:id=&quot;@+id/main&quot;
+    </text>
+    <text
+       transform="matrix(1,0,0,1,514.313,531.418)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1283">android:layout_width=&quot;match_parent&quot;
+    </text>
+    <text
+       transform="matrix(1,0,0,1,514.313,542.313)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1285">android:layout_height=&quot;match_parent&quot;
+    </text>
+    <text
+       transform="matrix(1,0,0,1,514.313,553.207)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1287">android:orientation=&quot;vertical&quot;
+    </text>
+    <text
+       transform="matrix(1,0,0,1,514.313,564.102)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1289">tools:context=&quot;.ui.main.MainFragment&quot;&gt;
+
+    </text>
+    <text
+       transform="matrix(1,0,0,1,514.313,585.891)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1291">&lt;com.google.android.material.tabs.</text>
+    <text
+       transform="matrix(1,0,0,1,646.797,585.891)"
+       style="font-family:'Open Sans';font-weight:700;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1293">TabLayout
+        </text>
+    <text
+       transform="matrix(1,0,0,1,522.625,596.785)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1295">android:id=&quot;@+id/tab_layout&quot;
+        </text>
+    <text
+       transform="matrix(1,0,0,1,522.625,607.68)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1297">android:layout_width=&quot;match_parent&quot;
+        </text>
+    <text
+       transform="matrix(1,0,0,1,522.625,618.574)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1299">android:layout_height=&quot;wrap_content&quot; /&gt;
+
+    </text>
+    <text
+       transform="matrix(1,0,0,1,514.313,640.363)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1301">&lt;androidx.viewpager2.widget.</text>
+    <text
+       transform="matrix(1,0,0,1,626.398,640.363)"
+       style="font-family:'Open Sans';font-weight:700;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1303">ViewPager2
+        </text>
+    <text
+       transform="matrix(1,0,0,1,522.625,651.258)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1305">android:id=&quot;@+id/pager&quot;
+        </text>
+    <text
+       transform="matrix(1,0,0,1,522.625,662.152)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1307">android:layout_width=&quot;match_parent&quot;
+        </text>
+    <text
+       transform="matrix(1,0,0,1,522.625,673.047)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1309">android:layout_height=&quot;0dp&quot;
+        </text>
+    <text
+       transform="matrix(1,0,0,1,522.625,683.941)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1311">android:layout_weight=&quot;1&quot;/&gt;
+
+</text>
+    <text
+       transform="matrix(1,0,0,1,506,705.73)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1313">&lt;/LinearLayout&gt;</text>
+    <g
+       id="g1317">
+      <path
+         d=" M 76.927 265 C 76.847 265.007 76.762 265.014 76.683 265.027 L 37.993 265.027 L 37.993 342.949 L 98.975 342.949 L 98.975 287.333 C 99.008 287.152 99.008 286.966 98.975 286.784 L 98.975 286.347 L 98.652 286.017 C 98.558 285.903 98.454 285.799 98.34 285.705 C 98.333 285.705 98.333 285.698 98.326 285.698 L 78.297 265.662 C 78.205 265.543 78.098 265.436 77.979 265.344 L 77.657 265.027 L 77.218 265.027 C 77.12 265.014 77.027 265 76.927 265 Z  M 41.381 268.415 L 75.26 268.415 L 75.26 288.743 L 95.587 288.743 L 95.587 339.561 L 41.381 339.561 L 41.381 268.415 Z  M 78.648 270.81 L 93.192 285.355 L 78.648 285.355 L 78.648 270.81 Z "
+         fill="rgb(0,0,0)"
+         id="path1315" />
+    </g>
+    <text
+       transform="matrix(1,0,0,1,22,358.051)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1319">MainFragment.kt</text>
+    <text
+       transform="matrix(1,0,0,1,126,257.736)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1321">class MainFragment : Fragment() {    </text>
+    <text
+       transform="matrix(1,0,0,1,134.313,290.42)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1323">companion object {
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,301.314)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1325">fun newInstance() = MainFragment()
+ </text>
+    <text
+       transform="matrix(1,0,0,1,128.078,312.209)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1327">   }
+
+    </text>
+    <text
+       transform="matrix(1,0,0,1,134.313,333.998)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1329">private lateinit var viewModel: MainViewModel
+    </text>
+    <text
+       transform="matrix(1,0,0,1,134.313,344.893)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1331">private lateinit var myPagerAdapter: MyPagerAdapter
+    </text>
+    <text
+       transform="matrix(1,0,0,1,134.313,355.787)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1333">private lateinit var viewPager: ViewPager2
+
+
+    </text>
+    <text
+       transform="matrix(1,0,0,1,134.313,388.471)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1335">//----  https://developer.android.com/guide/navigation/navigation-swipe-view-2
+    </text>
+    <text
+       transform="matrix(1,0,0,1,134.313,399.365)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1337">//----  Explicacion de como usar el tablayout
+
+    </text>
+    <text
+       transform="matrix(1,0,0,1,134.313,421.154)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1339">override fun onCreateView(
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,432.049)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1341">inflater: LayoutInflater, container: ViewGroup?,
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,442.943)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1343">savedInstanceState: Bundle?
+ </text>
+    <text
+       transform="matrix(1,0,0,1,128.078,453.838)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1345">   ): View {
+
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,475.627)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1347">val view = inflater.inflate(R.layout.main_fragment, container, false)
+
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,497.416)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1349">return view
+ </text>
+    <text
+       transform="matrix(1,0,0,1,128.078,508.311)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1351">   }
+
+    </text>
+    <text
+       transform="matrix(1,0,0,1,134.313,530.1)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1353">//--- esta función no está por defecto y es la que implemeta toda la funcionalidad del paged adapter
+    </text>
+    <text
+       transform="matrix(1,0,0,1,134.313,540.994)"
+       style="font-family:'Open Sans';font-weight:700;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1355">override fun onViewCreated</text>
+    <text
+       transform="matrix(1,0,0,1,246.785,540.994)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1357">(view: View, savedInstanceState: Bundle?) {
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,551.889)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1359">super.onViewCreated(view, savedInstanceState)
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,562.783)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1361">myPagerAdapter = </text>
+    <text
+       transform="matrix(1,0,0,1,214.125,562.783)"
+       style="font-family:'Open Sans';font-weight:700;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1363">MyPagerAdapter</text>
+    <text
+       transform="matrix(1,0,0,1,281.262,562.783)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1365">(this)
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,573.678)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1367">viewPager = pager
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,584.572)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1369">viewPager.adapter = </text>
+    <text
+       transform="matrix(1,0,0,1,220.91,584.572)"
+       style="font-family:'Open Sans';font-weight:700;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1371">myPagerAdapter
+
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,606.361)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1373">TabLayoutMediator(tab_layout,viewPager){ tab, position -&gt;
+            </text>
+    <text
+       transform="matrix(1,0,0,1,150.938,617.256)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1375">tab.text = &quot;TAB ${position + 1}&quot;
+ </text>
+    <text
+       transform="matrix(1,0,0,1,128.078,628.15)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1377">       }.attach()
+
+ </text>
+    <text
+       transform="matrix(1,0,0,1,128.078,649.939)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1379">   }
+
+    </text>
+    <text
+       transform="matrix(1,0,0,1,134.313,671.729)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1381">override fun onActivityCreated(savedInstanceState: Bundle?) {
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,682.623)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1383">super.onActivityCreated(savedInstanceState)
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,693.518)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1385">viewModel = ViewModelProviders.of(this).get(MainViewModel::class.java)
+        </text>
+    <text
+       transform="matrix(1,0,0,1,142.625,704.412)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1387">// TODO: Use the ViewModel
+ </text>
+    <text
+       transform="matrix(1,0,0,1,128.078,715.307)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1389">   }
+
+</text>
+    <text
+       transform="matrix(1,0,0,1,126,737.096)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1391">}</text>
+    <text
+       transform="matrix(1,0,0,1,636.5,52.826)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1393">El proposito de la MainActivity es lanzar el</text>
+    <text
+       transform="matrix(1,0,0,1,636.5,69.168)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1395">MainFragment por medio del layout main_activity.xml</text>
+    <text
+       transform="matrix(1,0,0,1,636.5,85.51)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1397">para eso hay que hacer referencia al container</text>
+    <text
+       transform="matrix(1,0,0,1,636.5,101.852)"
+       style="font-family:'Open Sans';font-weight:700;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1399">R.id.container </text>
+    <text
+       transform="matrix(1,0,0,1,723.67,101.852)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1401">y su propio layout </text>
+    <text
+       transform="matrix(1,0,0,1,827.018,101.852)"
+       style="font-family:'Open Sans';font-weight:700;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1403">main_activity.xml</text>
+    <text
+       transform="matrix(1,0,0,1,414,256.826)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1405">El proposito del MainFragment es proveer la interface</text>
+    <text
+       transform="matrix(1,0,0,1,414,273.168)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1407">al MyPagerAdapter y al TabLayoutMediator, por medio</text>
+    <text
+       transform="matrix(1,0,0,1,414,289.51)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1409">del override de </text>
+    <text
+       transform="matrix(1,0,0,1,501.469,289.51)"
+       style="font-family:'Open Sans';font-weight:700;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1411">onViewCreated</text>
+    <text
+       transform="matrix(1,0,0,1,592.934,289.51)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1413">.</text>
+    <text
+       transform="matrix(1,0,0,1,414,305.852)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1415">Por medio del MainFragment se disparan y controlan los</text>
+    <text
+       transform="matrix(1,0,0,1,414,322.193)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1417">otros fragmentos que se quieran mostrar en el</text>
+    <text
+       transform="matrix(1,0,0,1,414,338.535)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1419">carrusel de fragmentos</text>
+    <g
+       id="g1423">
+      <path
+         d=" M 572.93 360 C 572.851 360.007 572.766 360.014 572.686 360.027 L 533.996 360.027 L 533.996 437.949 L 594.979 437.949 L 594.979 382.333 C 595.012 382.152 595.012 381.966 594.979 381.784 L 594.979 381.347 L 594.655 381.017 C 594.562 380.903 594.457 380.799 594.344 380.705 C 594.337 380.705 594.337 380.698 594.33 380.698 L 574.301 360.662 C 574.208 360.543 574.101 360.436 573.982 360.344 L 573.66 360.027 L 573.222 360.027 C 573.123 360.014 573.03 360 572.93 360 Z  M 537.384 363.415 L 571.263 363.415 L 571.263 383.743 L 591.591 383.743 L 591.591 434.561 L 537.384 434.561 L 537.384 363.415 Z  M 574.651 365.81 L 589.196 380.355 L 574.651 380.355 L 574.651 365.81 Z "
+         fill="rgb(0,0,0)"
+         id="path1421" />
+    </g>
+    <text
+       transform="matrix(1,0,0,1,512,457.301)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1425">main_fragment.xml</text>
+    <text
+       transform="matrix(1,0,0,1,643,373.826)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1427">En el layout del main_fragment.xml crea</text>
+    <text
+       transform="matrix(1,0,0,1,643,390.168)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1429">2 objetos, el del TabLayout y el del ViewPager</text>
+    <text
+       transform="matrix(1,0,0,1,643,406.51)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1431">los cuales definen en la pantalla donde se van</text>
+    <text
+       transform="matrix(1,0,0,1,643,422.852)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1433">a poner los fragmentos</text>
+    <g
+       id="g1437">
+      <path
+         d=" M 80.927 808 C 80.847 808.007 80.762 808.014 80.683 808.027 L 41.993 808.027 L 41.993 885.949 L 102.975 885.949 L 102.975 830.333 C 103.008 830.152 103.008 829.966 102.975 829.784 L 102.975 829.347 L 102.652 829.017 C 102.558 828.903 102.454 828.799 102.34 828.705 C 102.333 828.705 102.333 828.698 102.326 828.698 L 82.297 808.662 C 82.205 808.543 82.098 808.436 81.979 808.344 L 81.657 808.027 L 81.218 808.027 C 81.12 808.014 81.027 808 80.927 808 Z  M 45.381 811.415 L 79.26 811.415 L 79.26 831.743 L 99.587 831.743 L 99.587 882.561 L 45.381 882.561 L 45.381 811.415 Z  M 82.648 813.81 L 97.192 828.355 L 82.648 828.355 L 82.648 813.81 Z "
+         fill="rgb(0,0,0)"
+         id="path1435" />
+    </g>
+    <text
+       transform="matrix(1,0,0,1,26,901.051)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1439">MyPagerAdapter.kt</text>
+    <text
+       transform="matrix(1,0,0,1,145,801.551)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1441">class </text>
+    <text
+       transform="matrix(1,0,0,1,164.992,801.551)"
+       style="font-family:'Open Sans';font-weight:700;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1443">MyPagerAdapter</text>
+    <text
+       transform="matrix(1,0,0,1,232.129,801.551)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1445">(fragment: Fragment) : FragmentStateAdapter(fragment) {    </text>
+    <text
+       transform="matrix(1,0,0,1,153.313,834.234)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1447">override fun </text>
+    <text
+       transform="matrix(1,0,0,1,201.273,834.234)"
+       style="font-family:'Open Sans';font-weight:700;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1449">getItemCount</text>
+    <text
+       transform="matrix(1,0,0,1,256.734,834.234)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1451">(): Int {
+        </text>
+    <text
+       transform="matrix(1,0,0,1,161.625,845.129)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1453">return 3
+ </text>
+    <text
+       transform="matrix(1,0,0,1,147.078,856.023)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1455">   }
+
+    </text>
+    <text
+       transform="matrix(1,0,0,1,153.313,877.813)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1457">override fun </text>
+    <text
+       transform="matrix(1,0,0,1,201.273,877.813)"
+       style="font-family:'Open Sans';font-weight:700;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1459">createFragment</text>
+    <text
+       transform="matrix(1,0,0,1,265.465,877.813)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1461">(position: Int): Fragment {
+        </text>
+    <text
+       transform="matrix(1,0,0,1,161.625,888.707)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1463">val fragment = when(position){
+            </text>
+    <text
+       transform="matrix(1,0,0,1,169.938,899.602)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1465">0 -&gt; Fragment1()
+            </text>
+    <text
+       transform="matrix(1,0,0,1,169.938,910.496)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1467">1 -&gt; Fragment2()
+            </text>
+    <text
+       transform="matrix(1,0,0,1,169.938,921.391)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1469">2 -&gt; Fragment1()
+            </text>
+    <text
+       transform="matrix(1,0,0,1,169.938,932.285)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1471">else -&gt; Fragment1()
+ </text>
+    <text
+       transform="matrix(1,0,0,1,147.078,943.18)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1473">       }
+        </text>
+    <text
+       transform="matrix(1,0,0,1,161.625,954.074)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1475">return fragment
+ </text>
+    <text
+       transform="matrix(1,0,0,1,147.078,964.969)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1477">   }
+
+
+</text>
+    <text
+       transform="matrix(1,0,0,1,145,997.652)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1479">}</text>
+    <text
+       transform="matrix(1,0,0,1,466,802.826)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1481">El proposito del MyPagerAdapter es indicar cuantos fragmentos se tienen,</text>
+    <text
+       transform="matrix(1,0,0,1,466,819.168)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1483">por medio del </text>
+    <text
+       transform="matrix(1,0,0,1,547.504,819.168)"
+       style="font-family:'Open Sans';font-weight:700;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1485">getItemCount</text>
+    <text
+       transform="matrix(1,0,0,1,630.695,819.168)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1487">() y devolver el fragmento que se va a</text>
+    <text
+       transform="matrix(1,0,0,1,466,835.51)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1489">cargar con el </text>
+    <text
+       transform="matrix(1,0,0,1,540.877,835.51)"
+       style="font-family:'Open Sans';font-weight:700;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1491">createFragment()</text>
+    <text
+       transform="matrix(1,0,0,1,645.297,835.51)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1493">.</text>
+    <g
+       id="g1497">
+      <path
+         d=" M 76.43 1141.025 C 76.351 1141.032 76.266 1141.039 76.186 1141.052 L 37.496 1141.052 L 37.496 1218.975 L 98.479 1218.975 L 98.479 1163.359 C 98.512 1163.177 98.512 1162.991 98.479 1162.81 L 98.479 1162.373 L 98.155 1162.042 C 98.062 1161.929 97.957 1161.824 97.844 1161.731 C 97.837 1161.731 97.837 1161.724 97.83 1161.724 L 77.801 1141.688 C 77.708 1141.569 77.601 1141.462 77.482 1141.369 L 77.16 1141.052 L 76.722 1141.052 C 76.623 1141.039 76.53 1141.025 76.43 1141.025 Z  M 40.884 1144.44 L 74.763 1144.44 L 74.763 1164.768 L 95.091 1164.768 L 95.091 1215.587 L 40.884 1215.587 L 40.884 1144.44 Z  M 78.151 1146.836 L 92.696 1161.38 L 78.151 1161.38 L 78.151 1146.836 Z "
+         fill="rgb(0,0,0)"
+         id="path1495" />
+    </g>
+    <text
+       transform="matrix(1,0,0,1,15,1234.025)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1499">fragment1.kt</text>
+    <g
+       id="g1503">
+      <path
+         d=" M 75.43 1379 C 75.351 1379.007 75.266 1379.014 75.186 1379.027 L 36.496 1379.027 L 36.496 1456.949 L 97.479 1456.949 L 97.479 1401.333 C 97.512 1401.152 97.512 1400.966 97.479 1400.784 L 97.479 1400.347 L 97.155 1400.017 C 97.062 1399.903 96.957 1399.799 96.844 1399.705 C 96.837 1399.705 96.837 1399.698 96.83 1399.698 L 76.801 1379.662 C 76.708 1379.543 76.601 1379.436 76.482 1379.344 L 76.16 1379.027 L 75.722 1379.027 C 75.623 1379.014 75.53 1379 75.43 1379 Z  M 39.884 1382.415 L 73.763 1382.415 L 73.763 1402.743 L 94.091 1402.743 L 94.091 1453.561 L 39.884 1453.561 L 39.884 1382.415 Z  M 77.151 1384.81 L 91.696 1399.355 L 77.151 1399.355 L 77.151 1384.81 Z "
+         fill="rgb(0,0,0)"
+         id="path1501" />
+    </g>
+    <g
+       id="g1507">
+      <path
+         d=" M 75.934 1245.025 C 75.854 1245.032 75.77 1245.039 75.69 1245.052 L 37 1245.052 L 37 1322.975 L 97.983 1322.975 L 97.983 1267.359 C 98.016 1267.177 98.016 1266.991 97.983 1266.81 L 97.983 1266.373 L 97.659 1266.042 C 97.565 1265.929 97.461 1265.824 97.347 1265.731 C 97.341 1265.731 97.341 1265.724 97.334 1265.724 L 77.304 1245.688 C 77.212 1245.569 77.105 1245.462 76.986 1245.369 L 76.664 1245.052 L 76.225 1245.052 C 76.127 1245.039 76.034 1245.025 75.934 1245.025 Z  M 40.388 1248.44 L 74.267 1248.44 L 74.267 1268.768 L 94.595 1268.768 L 94.595 1319.587 L 40.388 1319.587 L 40.388 1248.44 Z  M 77.655 1250.836 L 92.199 1265.38 L 77.655 1265.38 L 77.655 1250.836 Z "
+         fill="rgb(0,0,0)"
+         id="path1505" />
+    </g>
+    <text
+       transform="matrix(1,0,0,1,18,1336.025)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1509">fragment2.kt</text>
+    <text
+       transform="matrix(1,0,0,1,19,1477.025)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1511">fragment..N.kt</text>
+    <text
+       transform="matrix(1,0,0,1,155,1210.525)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1513">class Fragment1 : Fragment() {    </text>
+    <text
+       transform="matrix(1,0,0,1,163.313,1243.209)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1515">override fun onCreateView(
+        </text>
+    <text
+       transform="matrix(1,0,0,1,171.625,1254.104)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1517">inflater: LayoutInflater, container: ViewGroup?,
+        </text>
+    <text
+       transform="matrix(1,0,0,1,171.625,1264.998)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1519">savedInstanceState: Bundle?
+ </text>
+    <text
+       transform="matrix(1,0,0,1,157.078,1275.893)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1521">   ): View {
+        </text>
+    <text
+       transform="matrix(1,0,0,1,171.625,1286.787)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1523">val view = inflater.inflate(R.layout.fragment1_fragment, container, false)
+        </text>
+    <text
+       transform="matrix(1,0,0,1,171.625,1297.682)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1525">return view
+ </text>
+    <text
+       transform="matrix(1,0,0,1,157.078,1308.576)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1527">   }
+
+    </text>
+    <text
+       transform="matrix(1,0,0,1,163.313,1330.365)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1529">override fun onActivityCreated(savedInstanceState: Bundle?) {
+        </text>
+    <text
+       transform="matrix(1,0,0,1,171.625,1341.26)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1531">super.onActivityCreated(savedInstanceState)
+        </text>
+    <text
+       transform="matrix(1,0,0,1,171.625,1352.154)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1533">// TODO: Use the ViewModel
+ </text>
+    <text
+       transform="matrix(1,0,0,1,157.078,1363.049)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1535">   }
+
+</text>
+    <text
+       transform="matrix(1,0,0,1,155,1384.838)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1537">}</text>
+    <text
+       transform="matrix(1,0,0,1,586,1263.525)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1539">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;</text>
+    <text
+       transform="matrix(1,0,0,1,586,1274.42)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1541">&lt;LinearLayout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;    </text>
+    <text
+       transform="matrix(1,0,0,1,594.313,1296.209)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1543">android:orientation=&quot;vertical&quot; android:layout_width=&quot;match_parent&quot;
+    </text>
+    <text
+       transform="matrix(1,0,0,1,594.313,1307.104)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1545">android:layout_height=&quot;match_parent&quot;&gt;
+
+    </text>
+    <text
+       transform="matrix(1,0,0,1,594.313,1328.893)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1547">&lt;TextView
+        </text>
+    <text
+       transform="matrix(1,0,0,1,602.625,1339.787)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1549">android:id=&quot;@+id/textView&quot;
+        </text>
+    <text
+       transform="matrix(1,0,0,1,602.625,1350.682)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1551">android:layout_width=&quot;match_parent&quot;
+        </text>
+    <text
+       transform="matrix(1,0,0,1,602.625,1361.576)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1553">android:layout_height=&quot;wrap_content&quot;
+        </text>
+    <text
+       transform="matrix(1,0,0,1,602.625,1372.471)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1555">android:text=&quot;Fragment1&quot; /&gt;
+</text>
+    <text
+       transform="matrix(1,0,0,1,586,1383.365)"
+       style="font-family:'Open Sans';font-weight:400;font-size:8px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1557">&lt;/LinearLayout&gt;</text>
+    <g
+       id="g1561">
+      <path
+         d=" M 525.934 1119 C 525.854 1119.007 525.77 1119.014 525.69 1119.027 L 487 1119.027 L 487 1196.949 L 547.983 1196.949 L 547.983 1141.333 C 548.016 1141.152 548.016 1140.966 547.983 1140.784 L 547.983 1140.347 L 547.659 1140.017 C 547.565 1139.903 547.461 1139.799 547.347 1139.705 C 547.341 1139.705 547.341 1139.698 547.334 1139.698 L 527.304 1119.662 C 527.212 1119.543 527.105 1119.436 526.986 1119.344 L 526.664 1119.027 L 526.225 1119.027 C 526.127 1119.014 526.034 1119 525.934 1119 Z  M 490.388 1122.415 L 524.267 1122.415 L 524.267 1142.743 L 544.595 1142.743 L 544.595 1193.561 L 490.388 1193.561 L 490.388 1122.415 Z  M 527.655 1124.81 L 542.199 1139.355 L 527.655 1139.355 L 527.655 1124.81 Z "
+         fill="rgb(0,0,0)"
+         id="path1559" />
+    </g>
+    <text
+       transform="matrix(1,0,0,1,443.5,1213.801)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1563">fragment1_fragment.kt</text>
+    <g
+       id="g1567">
+      <path
+         d=" M 525.934 1226.975 C 525.854 1226.981 525.77 1226.988 525.69 1227.002 L 487 1227.002 L 487 1304.924 L 547.983 1304.924 L 547.983 1249.308 C 548.016 1249.126 548.016 1248.94 547.983 1248.759 L 547.983 1248.322 L 547.659 1247.992 C 547.565 1247.878 547.461 1247.774 547.347 1247.68 C 547.341 1247.68 547.341 1247.673 547.334 1247.673 L 527.304 1227.637 C 527.212 1227.518 527.105 1227.411 526.986 1227.318 L 526.664 1227.002 L 526.225 1227.002 C 526.127 1226.988 526.034 1226.975 525.934 1226.975 Z  M 490.388 1230.39 L 524.267 1230.39 L 524.267 1250.717 L 544.595 1250.717 L 544.595 1301.536 L 490.388 1301.536 L 490.388 1230.39 Z  M 527.655 1232.785 L 542.199 1247.329 L 527.655 1247.329 L 527.655 1232.785 Z "
+         fill="rgb(0,0,0)"
+         id="path1565" />
+    </g>
+    <text
+       transform="matrix(1,0,0,1,443.5,1321.775)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1569">fragment2_fragment.kt</text>
+    <g
+       id="g1573">
+      <path
+         d=" M 521.434 1353.449 C 521.354 1353.456 521.27 1353.463 521.19 1353.476 L 482.5 1353.476 L 482.5 1431.398 L 543.483 1431.398 L 543.483 1375.782 C 543.516 1375.601 543.516 1375.415 543.483 1375.234 L 543.483 1374.796 L 543.159 1374.466 C 543.065 1374.353 542.961 1374.248 542.847 1374.154 C 542.841 1374.154 542.841 1374.148 542.834 1374.148 L 522.804 1354.112 C 522.712 1353.993 522.605 1353.886 522.486 1353.793 L 522.164 1353.476 L 521.725 1353.476 C 521.627 1353.463 521.534 1353.449 521.434 1353.449 Z  M 485.888 1356.864 L 519.767 1356.864 L 519.767 1377.192 L 540.095 1377.192 L 540.095 1428.011 L 485.888 1428.011 L 485.888 1356.864 Z  M 523.155 1359.26 L 537.699 1373.804 L 523.155 1373.804 L 523.155 1359.26 Z "
+         fill="rgb(0,0,0)"
+         id="path1571" />
+    </g>
+    <text
+       transform="matrix(1,0,0,1,439,1448.25)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1575">fragment..N_fragment.kt</text>
+    <text
+       transform="matrix(1,0,0,1,154,1035.826)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1577">El proposito de los fragmentos es mostrar las pantallas que se quieran, en el numero</text>
+    <text
+       transform="matrix(1,0,0,1,154,1052.168)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1579">definido por getItemCount y lanzar las clases que se definen en los archivos.</text>
+    <text
+       transform="matrix(1,0,0,1,154,1084.852)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1581">Estos fragmentos pueden desacoplarse completamente y no tienen componentes</text>
+    <text
+       transform="matrix(1,0,0,1,154,1101.193)"
+       style="font-family:'Open Sans';font-weight:400;font-size:12px;font-style:normal;fill:#000000;stroke:none;"
+       id="text1583">dependientes de las clases que las controlan y las lanzan.</text>
+  </g>
+</svg>

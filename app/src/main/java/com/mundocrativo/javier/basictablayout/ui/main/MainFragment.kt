@@ -46,7 +46,6 @@ class MainFragment : Fragment() {
         TabLayoutMediator(tab_layout,viewPager){ tab, position ->
             tab.text = "TAB ${position + 1}"
         }.attach()
-
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
